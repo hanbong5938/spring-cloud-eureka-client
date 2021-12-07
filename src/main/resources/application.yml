@@ -1,0 +1,13 @@
+server:
+  port: 10000
+
+spring:
+  application:
+    name: msa
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+    register-with-eureka: true
+    fetch-registry: true
